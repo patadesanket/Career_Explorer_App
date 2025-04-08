@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f9f9f9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/careerTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#2C3E50"
+            android:paddingBottom="12dp" />
+
+        <TextView
+            android:id="@+id/careerDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:id="@+id/careerSkills"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Skills Required:"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#2C3E50" />
+
+        <TextView
+            android:id="@+id/careerSkillsText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:id="@+id/careerSalary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Average Salary:"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#2C3E50" />
+
+        <TextView
+            android:id="@+id/careerSalaryText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:id="@+id/careerEducation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Education Requirements:"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#2C3E50" />
+
+        <TextView
+            android:id="@+id/careerEducationText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:id="@+id/careerEnvironment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Work Environment:"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#2C3E50" />
+
+        <TextView
+            android:id="@+id/careerEnvironmentText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:id="@+id/careerCompanies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Top Companies:"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#2C3E50" />
+
+        <TextView
+            android:id="@+id/careerCompaniesText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:paddingBottom="16dp" />
+
+    </LinearLayout>
+</ScrollView>
